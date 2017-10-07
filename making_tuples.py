@@ -5,11 +5,10 @@ astros_infielders = {
 	'shortstop' : 'Carlos Correa'
 }
 
-def make_tuple(arr)
-	
+def make_tuple(arr):
+	return [(k, v) for k, v in arr.iteritems()]
 
-
-
+print make_tuple(astros_infielders)
 
 
 #function output
